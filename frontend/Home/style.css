@@ -1,0 +1,41 @@
+main{
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    margin: 20px;
+    list-style: none;
+    margin-right: 50px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(195, 220, 215);
+    border-color: black;
+    border-style: solid;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+a :hover{
+    text-decoration: underline;
+}
